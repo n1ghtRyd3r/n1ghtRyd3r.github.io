@@ -10,7 +10,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://n1ghtRyd3r.github.io',
-    base: 'n1ghtRyd3r.github.io',
+    base: '/n1ghtRyd3r.github.io/',
   integrations: [mdx(), sitemap()],
 
   vite: {
